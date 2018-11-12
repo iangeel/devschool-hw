@@ -1,0 +1,46 @@
+[ {
+  "date" : "2016-12-22",
+  "transactionId" : 3673,
+  "itemSummary" : {
+    "Brownie" : 1,
+    "Cookies" : 1,
+    "Cake" : 1,
+    "Bare Popcorn" : 1,
+    "Muffin" : 1,
+    "Juice" : 1,
+    "Panatone" : 1,
+    "Art Tray" : 1,
+    "NONE" : 1,
+    "Coffee" : 1
+  }
+}, {
+  "date" : "2017-02-12",
+  "transactionId" : 6474,
+  "itemSummary" : {
+    "Tea" : 1,
+    "Chicken Stew" : 1,
+    "Duck egg" : 1,
+    "Toast" : 1,
+    "Brownie" : 1,
+    "Cookies" : 1,
+    "Extra Salami or Feta" : 1,
+    "Coffee" : 3,
+    "NONE" : 1,
+    "Bread" : 1
+  }
+}, {
+  "date" : "2017-03-26",
+  "transactionId" : 8835,
+  "itemSummary" : {
+    "Sandwich" : 1,
+    "Medialuna" : 1,
+    "Granola" : 1,
+    "Tea" : 1,
+    "Cake" : 1,
+    "Muffin" : 1,
+    "Hot chocolate" : 1,
+    "NONE" : 1,
+    "Coffee" : 1,
+    "Bread" : 1
+  }
+} ]
