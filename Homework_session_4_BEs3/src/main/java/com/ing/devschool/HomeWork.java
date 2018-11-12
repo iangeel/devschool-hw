@@ -11,10 +11,10 @@ public class HomeWork {
     public static void main(String[] args) {
 
         File csvInputFile = new File(
-                "/home/angel/IdeaProjects/ING-devschool-workspace/devschool-homeworks-master/Session-3/src/main/resources/bakery-transactions.csv"
+                "./src/main/resources/bakery-transactions.csv"
         );
         File jsonFile = new File(
-                "/home/angel/IdeaProjects/ING-devschool-workspace/devschool-homeworks-master/Session-3/src/main/resources/bakery-summary.json"
+                "./src/main/resources/bakery-summary.json"
         );
 
         List<Transaction> myList;
