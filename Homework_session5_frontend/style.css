@@ -1,0 +1,126 @@
+body {
+    background-color:whitesmoke;
+    margin: 0;
+    font-weight: 400;
+    min-height: 100vh;
+}
+
+
+header {
+    margin: 0 auto;
+    height: 80%;
+    background-color: gainsboro;   
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+#ing_logo {
+    padding-left: 50px;
+    float: left;
+    width: 20%;
+    
+}
+
+nav {
+    float: right;
+}
+
+
+nav ul {
+    text-align: center;
+    margin: 0;
+    list-style: none;
+    padding-right: 50px;
+    padding-top: 55px;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+
+nav a {
+   
+    background-color: #033971;
+    color: #ffffff;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 8px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: darkorange;
+}
+
+
+
+aside ul {
+    margin-left: 190px;
+    list-style: none;
+}
+
+aside a {
+    text-decoration: none;
+    padding: 8px;
+    color: black;
+    font-size: 16px;
+}
+
+aside a:hover {
+    color: #033971;
+    font-size: 18px;
+}
+
+#btnInsertArticle {
+    margin-top: 5px;
+}
+
+.marginUl {
+    margin-bottom: 10px;
+}
+
+.secondUl {
+    margin-left: 15px;
+}
+
+.secondS1 {
+    margin-left: 10px;
+}
+
+.secondS2 {
+    margin-left: 7px;
+}
+
+
+h1 {
+    color: #033971;
+}
+
+main, footer, aside {
+    max-width: 600px;
+    margin: 50px auto; 
+}
+
+#webacc {
+    margin-left: -220px;
+}
+
+#audioId {
+    visibility: hidden;
+}
+
+.para {
+   word-wrap: break-word;
+}
+
+.isCentered {
+    background-color: orange;
+}
