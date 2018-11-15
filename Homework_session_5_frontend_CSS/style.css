@@ -1,0 +1,161 @@
+body {
+    background-image: url("leaves.png");
+    margin: 0;
+    font-weight: 400;
+    max-height: 1600px;
+}
+
+.flex-container {
+    display: flex;
+    background: none;
+    border: none;
+    align-content: flex-start;
+    clear: both;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    flex: 1 0 50%;
+    border:none;
+    box-sizing: border-box;  
+    border: solid 15px transparent;
+    border-bottom: 0px;
+}
+
+.aside-flex {
+    border-left: 0px;
+}
+
+.main-flex {
+    border-right: 0px;
+}
+
+.special {
+    border-bottom: solid 15px transparent;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    flex: 0 0 100%;
+    order: -1;
+    flex-grow: 1;
+    position:sticky;
+    top: 0;
+}
+
+@font-face {
+    font-family: 'myCustomFont'; /*a name to be used later*/
+    src: url('Bondi.ttf'); /*URL to font*/
+}
+
+h1,h2,h3 {
+    font-family: 'myCustomFont';
+}
+
+header {
+    margin: 0 auto;
+    height: 80%;
+    background-color: gainsboro;   
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+#ing_logo {
+    padding-left: 50px;
+    float: left;
+    width: 20%;
+    
+}
+
+nav {
+    float: right;
+}
+
+
+nav ul {
+    text-align: center;
+    margin: 0;
+    list-style: none;
+    padding-right: 50px;
+    padding-top: 55px;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+
+nav a:link{
+    color: white;
+    background-color: #033971;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 8px;
+    text-transform: uppercase;
+    font-size: 16px;
+    box-shadow: 0 2px 0 #002042;
+    position: relative;
+}
+
+nav a:visited {
+    color: #ccc;    
+}
+
+nav a:hover {
+    color: darkorange;
+}
+
+nav a:active {
+    top:2px; 
+    box-shadow: none;
+}
+
+
+main {
+    padding-left: 50px;
+}
+
+aside {
+    max-width: 350px;
+    align-content: center;
+
+ }
+
+
+aside ul {
+    margin:20px auto auto 50px;
+    list-style: none;
+}
+
+aside a {
+    text-decoration: none;
+    padding: 8px;
+    color: black;
+    font-size: 16px;
+}
+
+aside a:hover {
+    color: #033971;
+    font-size: 18px;
+}
+
+
+h1 {
+    color: #033971;
+}
+
+footer {
+    max-width: 600px;
+    margin: 50px auto; 
+}
+
+
+#webacc {
+    margin-left: -220px;
+}
+
