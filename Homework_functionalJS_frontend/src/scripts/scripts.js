@@ -6,9 +6,13 @@ var idInput = document.forms["myForm"]["id"];
 
 btn.innerHTML = "Get Location";
 
-idInput.addEventListener('input', function() {
-    btn.innerHTML = "Get Forecast";
-})
+idInput.addEventListener('keyup', function () {
+    if(idInput.value == null || idInput.value == "") {
+        btn.innerHTML = "Get Location";
+    } else {
+        btn.innerHTML = "Get Forecast";
+    }
+});
 
 btn.addEventListener('click', function() {
     if(btn.innerHTML == "Get Location" || idInputVal == null || idInput.value == "") {

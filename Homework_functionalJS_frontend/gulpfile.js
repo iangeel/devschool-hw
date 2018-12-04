@@ -16,7 +16,7 @@ const BROWSERS = [
     return gulp.src('./src/styles/styles.css')
       .pipe(autoprefixer({ browsers: BROWSERS }))
       .pipe(csso())
-      .pipe(gulp.dest('./build'));
+      .pipe(gulp.dest('./build/styles'));
   });
   
   gulp.task('scripts', function() {
@@ -24,7 +24,7 @@ const BROWSERS = [
       .pipe(uglify({
         mangle: true
       }))
-      .pipe(gulp.dest('./build'));
+      .pipe(gulp.dest('./build/scripts'));
   });
   
   gulp.task('html', function() {

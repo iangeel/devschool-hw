@@ -1,0 +1,14 @@
+/home/iangeell/IdeaProjects/SpringToSpringBoot/src/main/java/com/websystique/spring/AppMain.java
+/home/iangeell/IdeaProjects/SpringToSpringBoot/src/main/java/com/websystique/spring/domain/Application.java
+/home/iangeell/IdeaProjects/SpringToSpringBoot/src/main/java/com/websystique/spring/domain/Bond.java
+/home/iangeell/IdeaProjects/SpringToSpringBoot/src/main/java/com/websystique/spring/domain/EmployeeAddress.java
+/home/iangeell/IdeaProjects/SpringToSpringBoot/src/main/java/com/websystique/spring/domain/Car.java
+/home/iangeell/IdeaProjects/SpringToSpringBoot/src/main/java/com/websystique/spring/domain/Mustang.java
+/home/iangeell/IdeaProjects/SpringToSpringBoot/src/main/java/com/websystique/spring/domain/Performer.java
+/home/iangeell/IdeaProjects/SpringToSpringBoot/src/main/java/com/websystique/spring/domain/ApplicationUser.java
+/home/iangeell/IdeaProjects/SpringToSpringBoot/src/main/java/com/websystique/spring/domain/Driver.java
+/home/iangeell/IdeaProjects/SpringToSpringBoot/src/main/java/com/websystique/spring/domain/Instrument.java
+/home/iangeell/IdeaProjects/SpringToSpringBoot/src/main/java/com/websystique/spring/domain/Employee.java
+/home/iangeell/IdeaProjects/SpringToSpringBoot/src/main/java/com/websystique/spring/config/AppConfig.java
+/home/iangeell/IdeaProjects/SpringToSpringBoot/src/main/java/com/websystique/spring/domain/Ferari.java
+/home/iangeell/IdeaProjects/SpringToSpringBoot/src/main/java/com/websystique/spring/domain/License.java
