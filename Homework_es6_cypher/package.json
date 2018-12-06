@@ -1,0 +1,14 @@
+{
+  "name": "homework_es15_cypher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Angel",
+  "license": "ISC",
+  "dependencies": {
+    "simple-node-logger": "^0.93.40"
+  }
+}
